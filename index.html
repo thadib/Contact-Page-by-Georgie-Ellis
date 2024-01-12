@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="contact-form-icon.svg" alt=""></div>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="title">Interested in our business pricing?
+            </h1>
+            <p class="description">
+                Fill out the form to view details and we’ll contact you as soon as possible.
+            </p>
+            <form class="contact-form">
+                <div class="first-part">
+                    <label for="name">Name
+                        <input id="name" type="text" placeholder="Ethan Johnson" required>
+                    </label> 
+                    
+                    <label for="email">Company Email
+                        <input id="email" type="email" placeholder="ethan@johnson.com"> 
+                    </label>
+                    
+                    <label for="size">Company Size
+                        <select name="size" id="size">
+                            <option value="">50-100 employees</option>
+                            <option value="">100-499 employees</option>
+                            <option value="">500+ employees</option>
+                        </select>
+                    </label>
+                    
+                    <label for="subject">Subject
+                        <select name="subject" id="subject">
+                            <option value="">Building Landing Pages</option>
+                            <option value="">E-commerce Website</option>
+                            <option value="">Full Stuck Development</option>
+                        </select>
+                    </label>
+                </div>
+                <label for="comment">Massage
+                    <textarea name="comment" id="comment" cols="30" rows="7">50-100 employees</textarea>
+                </label>
+                <button>Contact Sales</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

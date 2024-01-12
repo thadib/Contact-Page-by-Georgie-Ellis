@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+body{
+    background-image: url('bg-image.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f8fafc;
+}
+input, textarea, select, button {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: .8rem;
+    font-weight: 600;
+}
+
+.logo{
+    padding: 1rem;
+    margin: 0 1rem;
+    width: 100px;
+}
+.container{
+    width: 52%;
+    margin: auto;
+    padding: 1rem;
+}
+.title, .description{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.title{
+    font-size: 3rem;
+}
+.description{
+    font-size: 1.5rem;
+}
+.contact-form{
+    width: 100%;
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: rgba(148, 84, 196, 0.7);
+    border-radius: 10px;
+}
+.first-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label, input{
+    width: 100%;
+}
+button{
+    width: 100%;
+    margin-top: 1rem;
+    color: #4036A9;
+    font-size: 1rem;
+}
+
+
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+    .container{
+        width: 82%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .container{
+        width: 100%;
+    }
+    .title, .description{
+        width: 100%;
+    }
+    .first-part{
+        display: flex;
+        flex-direction: column;
+    }
+}
