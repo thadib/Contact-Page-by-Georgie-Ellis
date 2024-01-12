@@ -32,7 +32,7 @@ input, textarea, select, button {
     padding: 1rem;
 }
 .title, .description{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
 }
